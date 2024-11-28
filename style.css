@@ -1,0 +1,12 @@
+body {
+    margin: 2rem;
+    background-color: darkgrey;
+}
+
+.result-valid {
+    color: green;
+}
+
+.result-invalid {
+    color: red;
+}
