@@ -1,12 +1,25 @@
 body {
     margin: 2rem;
-    background-color: darkgrey;
+    background-color: #121212; /* Darker background for better contrast */
+    color: #e0e0e0; /* Light text for better readability */
+    font-family: 'Arial', sans-serif; /* Ensure readability */
 }
 
 .result-valid {
-    color: green;
+    color: #4caf50; /* Brighter green for better visibility in dark mode */
+    font-weight: bold; /* Enhance emphasis */
 }
 
 .result-invalid {
-    color: red;
+    color: #f44336; /* Brighter red for better contrast */
+    font-weight: bold; /* Match the valid style emphasis */
+}
+
+a {
+    color: #64b5f6; /* Bright blue for links */
+    text-decoration: none; /* Simplified link style */
+}
+
+a:hover {
+    text-decoration: underline; /* Indicate hover */
 }
